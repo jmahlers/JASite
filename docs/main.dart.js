@@ -1096,7 +1096,7 @@ return s.charCodeAt(0)==0?s:s},
 c9:function(a){var t,s
 for(t=$.F.length,s=0;s<t;++s)if(a===$.F[s])return!0
 return!1}},W={b:function b(){},U:function U(){},V:function V(){},a_:function a_(){},a:function a(){},J:function J(){},a2:function a2(){},x:function x(){},ab:function ab(){}},F={
-bj:function(){J.br(document.querySelector("#output"),"Your Dart app is running.")}}
+bj:function(){J.br(document.querySelector("#output"),"Your Dart app is running. This is a test.")}}
 var w=[C,H,J,P,W,F]
 hunkHelpers.setFunctionNamesIfNecessary(w)
 var $={}
