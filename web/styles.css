@@ -17,7 +17,6 @@ html, body {
 #constellations-container {
   width: 400px;
   height: 400px;
-  overflow: hidden;
 }
 
 .constellations {
