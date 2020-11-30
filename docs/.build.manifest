@@ -1,8 +1,12 @@
 .dart_tool/package_config.json
 .packages
-assets/Constellations.ai
-assets/Constellations.svg
+assets/constellations.ai
+assets/constellations.svg
 assets/favicon.ico
+assets/parallax-constellations-2.ai
+assets/parallax-constellations-2.svg
+assets/parallax-constellations.ai
+assets/parallax-constellations.svg
 index.html
 main.dart.js
 packages/$sdk/_internal/strong.sum
