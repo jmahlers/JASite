@@ -25,7 +25,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2500px;
+  top: -2600px;
   left: calc(-2500px + 50%);
   margin-left: auto;
   margin-right: auto;
