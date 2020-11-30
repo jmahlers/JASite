@@ -1,5 +1,6 @@
 .dart_tool/package_config.json
 .packages
+assets/Constellations.ai
 assets/Constellations.svg
 assets/favicon.ico
 index.html
