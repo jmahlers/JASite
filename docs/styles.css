@@ -1,17 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 html, body {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
-  background-color: #02002a;
 }
 
-#output {
-  padding: 20px;
-  text-align: center;
+#background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #02002a;
+  z-index: -10;
 }
 
 #constellations-container {
@@ -27,19 +27,21 @@ html, body {
   position: absolute;
   top: -2600px;
   left: calc(-2500px + 50%);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
   padding: 0;
   width: 5000px;
   height: 5000px;
-  z-index: 2;
+  z-index: -7;
+  /* Important to output svg as "Save as screen" */
   background-image: url('./assets/constellations.svg');
   background-repeat: no-repeat;
   background-position: center center;
+  z-index: -1;
   animation-name: orbit;
-  animation-duration: 900s;
+  animation-duration: 1000s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  transform-origin: 50% 50%;
 }
 
 #parallax-constellations {
@@ -48,19 +50,21 @@ html, body {
   position: absolute;
   top: -2600px;
   left: calc(-2500px + 50%);
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   padding: 0;
   width: 5000px;
   height: 5000px;
-  z-index: 1;
+  z-index: -8;
   background-image: url('./assets/parallax-constellations.svg');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
-  animation-duration: 570s;
+  animation-duration: 610s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  /* Slight offset makes for changing radiuses relative to center orb */
+  transform-origin: 50% 49.5%;
 }
 
 #parallax-constellations-2 {
@@ -74,14 +78,16 @@ html, body {
   padding: 0;
   width: 5000px;
   height: 5000px;
-  z-index: 0;
+  z-index: -9;
   background-image: url('./assets/parallax-constellations-2.svg');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
-  animation-duration: 350s;
+  animation-duration: 400s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  /* Slight offset makes for changing radiuses relative to center orb */
+  transform-origin: 50% 50.5%;
 }
 
 @keyframes orbit {
@@ -91,4 +97,9 @@ html, body {
   100% {
     transform: rotateZ(360deg)
   }
+}
+
+#header h1 {
+  color: white;
+  text-align: center;
 }
