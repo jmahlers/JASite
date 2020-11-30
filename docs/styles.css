@@ -36,7 +36,6 @@ html, body {
   background-image: url('./assets/constellations.svg');
   background-repeat: no-repeat;
   background-position: center center;
-  z-index: -1;
   animation-name: orbit;
   animation-duration: 1000s;
   animation-iteration-count: infinite;
@@ -50,8 +49,7 @@ html, body {
   position: absolute;
   top: -2600px;
   left: calc(-2500px + 50%);
-  margin-left: 0;
-  margin-right: auto;
+  margin: 0;
   padding: 0;
   width: 5000px;
   height: 5000px;
@@ -73,8 +71,7 @@ html, body {
   position: absolute;
   top: -2600px;
   left: calc(-2500px + 50%);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
   padding: 0;
   width: 5000px;
   height: 5000px;
