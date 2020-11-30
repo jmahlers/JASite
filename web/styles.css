@@ -21,7 +21,28 @@ html, body {
   position: absolute;
 }
 
-.constellations {
+#constellations {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2600px;
+  left: calc(-2500px + 50%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 5000px;
+  height: 5000px;
+  z-index: 2;
+  background-image: url('./assets/constellations.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation-name: orbit;
+  animation-duration: 900s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#parallax-constellations {
   content: '';
   display: block;
   position: absolute;
@@ -33,11 +54,32 @@ html, body {
   width: 5000px;
   height: 5000px;
   z-index: 1;
-  background-image: url('./assets/Constellations.svg');
+  background-image: url('./assets/parallax-constellations.svg');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
-  animation-duration: 950s;
+  animation-duration: 570s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#parallax-constellations-2 {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2600px;
+  left: calc(-2500px + 50%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 5000px;
+  height: 5000px;
+  z-index: 0;
+  background-image: url('./assets/parallax-constellations-2.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  animation-name: orbit;
+  animation-duration: 350s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
