@@ -47,7 +47,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2600px;
+  top: -2550px;
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
@@ -69,7 +69,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2600px;
+  top: -2650px;
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
