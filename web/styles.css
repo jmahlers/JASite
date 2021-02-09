@@ -33,7 +33,7 @@ html, body {
   height: 5000px;
   z-index: -7;
   /* Important to output svg as "Save as screen" */
-  background-image: url('./assets/constellations.svg');
+  background-image: url('./assets/constellations_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
@@ -54,7 +54,7 @@ html, body {
   width: 5000px;
   height: 5000px;
   z-index: -8;
-  background-image: url('./assets/parallax-constellations.svg');
+  background-image: url('./assets/parallax-constellations_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
@@ -76,7 +76,7 @@ html, body {
   width: 5000px;
   height: 5000px;
   z-index: -9;
-  background-image: url('./assets/parallax-constellations-2.svg');
+  background-image: url('./assets/parallax-constellations-2_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
