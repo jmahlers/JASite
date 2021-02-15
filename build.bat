@@ -1,1 +1,1 @@
-webdev build -o web:docs & pub get
+start \b webdev build -o web:docs & pub get
