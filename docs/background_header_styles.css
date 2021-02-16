@@ -6,6 +6,10 @@ html, body {
   color: white;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 #background {
   position: absolute;
   width: 100%;
@@ -98,10 +102,11 @@ html, body {
 
 #header {
   height: 60px;
-  width: 100%;
+  width: 90%;
   color: white;
   position: fixed;
   background-color: #02002a;
+  z-index: 1;
 }
 
 #hamburger-menu {
