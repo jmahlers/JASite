@@ -1,0 +1,37 @@
+#content {
+    width: fit-content;
+    height: fit-content;
+}
+
+h3 {
+    margin: 70px 0 0 30px;
+    font-size: 20pt;
+}
+
+ul {
+    margin: 0px 0 0 20px;
+}
+
+li {
+    margin: 0 0 18px 0;
+}
+
+.title {
+    margin: 6px 0 0 0;
+    font-size: 14pt;
+}
+
+.authors {
+    margin: 6px 0 0 0;
+}
+
+.journal {
+    margin: 6px 0 0 0;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
