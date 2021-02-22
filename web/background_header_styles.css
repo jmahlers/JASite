@@ -113,7 +113,7 @@ html, body {
   float: left;
   position: relative;
   margin-left: 15px;
-  margin-top: 16.5px;
+  margin-top: 16px;
 }
 
 #header h1 {
@@ -135,4 +135,17 @@ html, body {
 #header a {
   color: inherit;
   text-decoration: none;
+}
+
+/* If there is a link after #github-link set the margin-left to zero (svg is 20px also)*/
+
+.external-header-link {
+  visibility: hidden;
+  position: relative;
+  right: 7px;
+  top: 2px;
+}
+
+#github-link:hover svg {
+  visibility: visible;
 }
