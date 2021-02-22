@@ -10,6 +10,7 @@
         <meta name="scaffolded-by" content="https://github.com/dart-lang/stagehand">
         <title>Jeff Ahlers</title>
         <link rel="stylesheet" href="background_header_styles.css">
+        <link rel="stylesheet" href="publications_styles.css">
         <link rel="icon" href="./assets/icons/JA-ket.ico">
         <script defer src="main.dart.js"></script>
     </head>
@@ -18,15 +19,40 @@
     <div id="header">
         <img src="./assets/icons/hamburger-icon.png" alt="Hamburger menu" id="hamburger-menu" height="25" width="38">
         <h1><a href="./index.html">Jeff Ahlers</a></h1>
-        <h2><a href="https://github.com/jmahlers">Github</a></h2>
-        <h2><a href="#">Publications</a></h2>
+        <h2 id="publications-link"><a href="#">Publications</a>
+        </h2>
+        <h2 id="github-link"><a href="https://github.com/jmahlers">Github
+                <svg class="external-header-link" width="12px" height="12px" viewBox="0 0 24 24" style="cursor:pointer">
+                    <g stroke-width="2.1" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+                        <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+                    </g>
+                </svg>
+            </a>
+        </h2>
     </div>
     <div id="background"></div>
     <div id="container">
         <div id="constellations"></div>
         <div id="parallax-constellations"></div>
         <div id="parallax-constellations-2"></div>
+        <div id="content">
+            <h3>Publications</h3>
+            <ul id="publication-list">
+                <li>
+                    <p class="title"><a href="https://link.aps.org/doi/10.1103/PhysRevX.10.041006">Broken Symmetries and Kohn's Theorem in Graphene Cyclotron Resonance</a></p>
+                    <p class="authors">
+                        Jordan Pack, B. Jordan Russell, Yashika Kapoor, Jesse Balgley, Jeff Ahlers, T. Taniguchi, K. Watanabe, and E. A. Henriksen.
+                    </p>
+                    <p class="journal">
+                        Physical Review X, 10, 041006 (2020); <a href="https://arxiv.org/abs/2001.08879">also on arXiv</a>.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
     </div>
+
 </body>
 
 </html>
