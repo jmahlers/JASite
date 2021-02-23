@@ -19,9 +19,11 @@ assets/icons/JA-ket.png
 assets/icons/JA-ket.psd
 assets/icons/hamburger-icon.png
 assets/icons/tab-icon.ico
-background_header_styles.css
+css/background_header_styles.css
+css/index_styles.css
+css/publications_styles.css
+dart/main.dart.js
 index.html
-main.dart.js
 packages/$sdk/_internal/strong.sum
 packages/$sdk/dev_compiler/kernel/amd/dart_sdk.js
 packages/$sdk/dev_compiler/kernel/amd/require.js
@@ -282,4 +284,3 @@ packages/pedantic/analysis_options.1.8.0.yaml
 packages/pedantic/analysis_options.1.9.0.yaml
 packages/pedantic/analysis_options.yaml
 publications.html
-publications_styles.css

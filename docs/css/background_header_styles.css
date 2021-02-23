@@ -29,7 +29,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2600px;
+  top: -2500px;
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
@@ -37,58 +37,55 @@ html, body {
   height: 5000px;
   z-index: -7;
   /* Important to output svg as "Save as screen" */
-  background-image: url('./assets/constellations/constellations-no-center_8b.png');
+  background-image: url('../assets/constellations/constellations-no-center_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
   animation-duration: 1000s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  transform-origin: 50% 50%;
 }
 
 #parallax-constellations {
   content: '';
   display: block;
   position: absolute;
-  top: -2550px;
+  top: -2300px;
+  /* Give the appearance of radial delta velocities between layers */
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
   width: 5000px;
   height: 5000px;
   z-index: -8;
-  background-image: url('./assets/constellations/parallax-constellations_8b.png');
+  background-image: url('../assets/constellations/parallax-constellations_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
   animation-duration: 610s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  /* Slight offset makes for changing radiuses relative to center orb */
-  transform-origin: 50% 49.5%;
 }
 
 #parallax-constellations-2 {
   content: '';
   display: block;
   position: absolute;
-  top: -2650px;
+  top: -2700px;
+  /* Give the appearance of radial delta velocities between layers */
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
   width: 5000px;
   height: 5000px;
   z-index: -9;
-  background-image: url('./assets/constellations/parallax-constellations-2_8b.png');
+  background-image: url('../assets/constellations/parallax-constellations-2_8b.png');
   background-repeat: no-repeat;
   background-position: center center;
   animation-name: orbit;
   animation-duration: 400s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  /* Slight offset makes for changing radiuses relative to center orb */
-  transform-origin: 50% 50.5%;
 }
 
 @keyframes orbit {
