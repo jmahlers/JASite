@@ -109,7 +109,7 @@ html, body {
 #hamburger-menu {
   float: left;
   position: relative;
-  margin-left: 15px;
+  margin-left: 20px;
   margin-top: 16px;
 }
 
@@ -117,7 +117,7 @@ html, body {
   float: left;
   position: relative;
   font-size: 36px;
-  margin-left: 30px;
+  margin-left: 25px;
   margin-top: 8px;
 }
 
