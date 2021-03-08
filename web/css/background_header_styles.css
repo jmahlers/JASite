@@ -126,6 +126,7 @@ html, body {
   position: relative;
   font-size: 26px;
   margin-left: 20px;
+  margin-right: 20px;
   margin-top: 17px;
 }
 
@@ -134,8 +135,6 @@ html, body {
   text-decoration: none;
 }
 
-/* If there is a link after #github-link set the margin-left to zero (svg is 20px also)*/
-
 .external-header-link {
   visibility: hidden;
   position: relative;
@@ -143,6 +142,11 @@ html, body {
   top: 2px;
 }
 
-#github-link:hover svg {
+.external-header-link-h2:hover svg {
   visibility: visible;
+}
+
+#header .external-header-link-h2 {
+  margin-left: 0px;
+  margin-right: 0px;
 }
