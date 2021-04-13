@@ -3,9 +3,14 @@
     height: fit-content;
 }
 
-h3 {
+#publication-title {
     margin: 70px 0 0 30px;
     font-size: 20pt;
+}
+
+h3.year {
+    font-size: 18pt;
+    margin: 5px 0 0 0px;
 }
 
 ul {
@@ -13,7 +18,7 @@ ul {
 }
 
 li {
-    margin: 0 0 18px 0;
+    margin: 0 0 10px 0;
 }
 
 .title {
