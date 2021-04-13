@@ -1,1 +1,1 @@
-webdev build -o web:docs & pub get
+webdev build -r -o web:docs & pub get
