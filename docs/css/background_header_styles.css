@@ -29,7 +29,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2500px;
+  top: -2525px;
   left: calc(-2500px + 50%);
   margin: 0;
   padding: 0;
@@ -50,7 +50,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2300px;
+  top: -2350px;
   /* Give the appearance of radial delta velocities between layers */
   left: calc(-2500px + 50%);
   margin: 0;
@@ -71,7 +71,7 @@ html, body {
   content: '';
   display: block;
   position: absolute;
-  top: -2700px;
+  top: -2750px;
   /* Give the appearance of radial delta velocities between layers */
   left: calc(-2500px + 50%);
   margin: 0;
